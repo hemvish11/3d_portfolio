@@ -72,10 +72,10 @@ const technologies = [
         name: "JavaScript",
         icon: javascript,
     },
-    // {
-    //     name: "TypeScript",
-    //     icon: typescript,
-    // },
+    {
+        name: "TypeScript",
+        icon: typescript,
+    },
     {
         name: "React JS",
         icon: reactjs,
@@ -100,18 +100,42 @@ const technologies = [
         name: "Three JS",
         icon: threejs,
     },
-    // {
-    //     name: "git",
-    //     icon: git,
-    // },
-    // {
-    //     name: "figma",
-    //     icon: figma,
-    // },
-    // {
-    //     name: "docker",
-    //     icon: docker,
-    // },
+    {
+        name: "git",
+        icon: git,
+    },
+    {
+        name: "figma",
+        icon: figma,
+    },
+    {
+        name: "docker",
+        icon: docker,
+    },
+];
+const technologiesMobile = [
+    {
+        name: "JavaScript",
+        icon: javascript,
+    },
+    {
+        name: "React JS",
+        icon: reactjs,
+    },
+
+    {
+        name: "Tailwind CSS",
+        icon: tailwind,
+    },
+    {
+        name: "Node JS",
+        icon: nodejs,
+    },
+
+    {
+        name: "Three JS",
+        icon: threejs,
+    }
 ];
 
 const experiences = [
@@ -262,4 +286,4 @@ const projects = [
     },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies,technologiesMobile, experiences, testimonials, projects };
